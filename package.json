@@ -6,20 +6,20 @@
     "email": "camiloesteban661@gmail.com"
   },
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "packageManager": "pnpm@8.4.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/CMOISDEAD/SeatPicker"
   },
-  "main": "./dist/seatpicker.umd.js",
-  "module": "./dist/seatpicker.es.js",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/seatpicker.es.js",
-      "require": "./dist/seatpicker.umd.js"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },

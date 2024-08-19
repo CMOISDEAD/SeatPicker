@@ -31,7 +31,7 @@ const app = async (): Promise<UserConfigExport> => {
         entry: path.resolve(__dirname, 'src/lib/index.ts'),
         name: formattedName,
         formats: ['es', 'umd'],
-        fileName: (format) => `${formattedName}.${format}.js`,
+        fileName: (format) => `index.${format}.js`,
       },
       rollupOptions: {
         external: ['react', 'react/jsx-runtime', 'react-dom', 'tailwindcss'],
